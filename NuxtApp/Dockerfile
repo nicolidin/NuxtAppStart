@@ -11,7 +11,5 @@ RUN yarn install
 # Copy the Nuxt application code
 COPY . .
 
-RUN chmod +x /app/docker-script.sh
-
 EXPOSE 3000
 

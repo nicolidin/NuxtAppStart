@@ -49,8 +49,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    routeRules: {
-    },
+    routeRules: {},
   },
   // Based on docs found here - https://vuetifyjs.com/en/getting-started/installation/#using-nuxt-3
   vite: {

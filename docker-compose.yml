@@ -11,7 +11,7 @@ services:
       - ./NuxtApp/.env # Load Nuxt-specific environment variables
     volumes:
       - ./NuxtApp:/app
-    entrypoint: ["/bin/sh", "/app/docker-script.sh"] # Override command in Dockerfile
+    command: ["node", "/app/docker-script.js"] # Commande pour exécuter le script JS
     networks:
       - app-network
 
